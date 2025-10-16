@@ -22,6 +22,12 @@
     .big {
         display:inline-block;
     }
+
+    .bighr {
+        display: block;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
 }
 
 /*tablet-md: 700px*/
@@ -29,11 +35,40 @@
     .col {
         width: calc(100% / 4 - 30px / 4);
     }
+
+    .first-section .icons {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .first-section {
+        width: 180px;
+    }
+
+    .second-section {
+        width: 350px;
+    }
+
+    .third-section {
+        width: 170px;
+    }
 }
 
 /*desktop-lg: 1100px*/
 @media screen and (min-width: 1100px) {
     .col {
         width: calc(100% / 6 - 50px / 6);
+    }
+
+    .first-section {
+        width: 220px;
+    }
+
+    .second-section {
+        width: 600px;
+    }
+
+    .third-section {
+        width: 220px;
     }
 }

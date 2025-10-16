@@ -3,6 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
@@ -26,18 +29,18 @@
 
                     <!-- Options -->
                     <!-- Home -->
-                    <div class="flex align-center">
-                        <img class="standard-size small-logo" src="./img/home.svg" alt="">
+                    <div class="flex align-center opacify-div">
+                        <img class="standard-size small-logo opacity-60" src="./img/home.svg" alt="">
                         <p class="big">Home</p>
                     </div>
                     <!-- Cerca -->
-                    <div class="flex align-center">
-                        <img class="standard-size small-logo" src="./img/search.svg" alt="">
+                    <div class="flex align-center opacify-div">
+                        <img class="standard-size small-logo opacity-60" src="./img/search.svg" alt="">
                         <p class="big">Cerca</p>
                     </div>
                     <!-- La tua libreria -->
-                    <div class="flex align-center">
-                        <img class="standard-size small-logo" src="./img/libreria.svg" alt="">
+                    <div class="flex align-center opacify-div">
+                        <img class="standard-size small-logo opacity-60" src="./img/libreria.svg" alt="">
                         <p class="big">La tua libreria</p>
                     </div>
 
@@ -45,43 +48,40 @@
                     <div class="big margin-top padding-left playlist">
                         <strong class="color-white">PLAYLIST</strong>
                         <div class="flex align-center">
-                            <img class="standard-size small-logo" src="" alt="">
-                            <p class="big">Crea playlist</p>
+
+                            <p class="big opacify create"><span class="plus">+</span>Crea playlist</p>
                         </div>
                         <ul>
                             <li>
-                                <p>Nome Playlist</p>
+                                <p class="opacify">Nome Playlist</p>
                             </li>
                             <li>
-                                <p>Nome Playlist</p>
+                                <p class="opacify">Nome Playlist</p>
                             </li>
                             <li>
-                                <p>Nome Playlist</p>
+                                <p class="opacify">Nome Playlist</p>
                             </li>
                             <li>
-                                <p>Nome Playlist</p>
+                                <p class="opacify">Nome Playlist</p>
                             </li>
                             <li>
-                                <p>Nome Playlist</p>
+                                <p class="opacify">Nome Playlist</p>
                             </li>
                             <li>
-                                <p>Nome Playlist</p>
-                            </li>
-                            <li>
-                                <p>Nome Playlist</p>
+                                <p class="opacify">Nome Playlist</p>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <div>
-                    <div class="flex">
-                        <img class="small-download" src="./img/download.svg" alt="">
-                        <p>Installa app</p>
+                <div class="margin-left-20 margin-bottom-20">
+                    <div class="flex opacify-div">
+                        <img class="small-download opacity-60" src="./img/download.svg" alt="">
+                        <p class="big">Installa app</p>
                     </div>
-                    <hr class="margin-y">
-                    <div class="flex">
-                        <img class="small-download" src="./img/profile.svg" alt="">
-                        <p>John Doe</p>
+                    <hr class="bighr margin-top">
+                    <div class="flex margin-top">
+                        <img class="small-download user-image" src="./img/profile.svg" alt="">
+                        <div class="big user">John Doe</div>
                     </div>
                 </div>
             </div>
@@ -101,13 +101,13 @@
                 <main>
                     <!-- Main nav -->
                     <nav class="main-nav">
-                        <ul>
-                            <li><a href="">IN EVIDENZA</a></li>
-                            <li><a href="">PODCAST</a></li>
-                            <li><a href="">CLASSIFICHE</a></li>
-                            <li><a href="">GENERI E MOOD</a></li>
-                            <li><a href="">NUOVE USCITE</a></li>
-                            <li><a href="">SCOPRI</a></li>
+                        <ul class="">
+                            <li><a class="opacify opacity-60" href="">IN EVIDENZA</a></li>
+                            <li><a class="opacify opacity-60" href="">PODCAST</a></li>
+                            <li><a class="opacify opacity-60" href="">CLASSIFICHE</a></li>
+                            <li><a class="opacify opacity-60" href="">GENERI E MOOD</a></li>
+                            <li><a class="opacify opacity-60" href="">NUOVE USCITE</a></li>
+                            <li><a class="opacify opacity-60" href="">SCOPRI</a></li>
                         </ul>
                     </nav>
                     <!-- Fine main nav -->
@@ -192,6 +192,69 @@
 
         <!-- Footer -->
         <footer>
+            <div class="flex flex-row justify-between align-center">
+                <div class="width-30pc height-footer flex-grow-1 align-center height-footer">
+                    <!-- Prima sezione -->
+                    <div class="flex flex-row align-center space-around first-section">
+                        <img class="music-size" src="./img/sinister.jpeg" alt="Sinister">
+                        <div class="flex flex-column no-wrap title">
+                            <strong class="color-white">Sinister</strong>
+                            <p class="color-white opacity-60">Brano nome</p>
+                        </div>
+                        <div class="flex flex-column icons">
+                            <div>
+                                <i class="fa-regular fa-heart color-white opacity-60 icon"></i>
+                            </div>
+                            <div>
+                                <i class="fa-regular fa-folder color-white opacity-60 icon"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fine prima sezione -->
+                </div>
+                <div class="width-40pc height-footer flex justify-center flex-column flex-grow-1">
+                    <!-- Seconda sezione -->
+                     <div class="flex flex-column align-center justify-center second-section width-100pc">
+                        <div class="flex flex-row justify-center width-200">
+                            <div class="flex flex-row justify-between height-30">
+                                <i class="fa-solid fa-shuffle color-white width-30"></i>
+                                <i class="fa-solid fa-backward-step color-white width-30"></i>
+                                <i class="fa-regular fa-circle-play color-white width-30"></i>
+                                <i class="fa-solid fa-forward-step color-white width-30"></i>
+                                <i class="fa-solid fa-arrow-rotate-right color-white width-30"></i>
+                            </div>
+                        </div>
+                        <div class="flex flex-row flex-start width-70pc item-start">
+                            <div class="time time-rm">0.25</div>
+                            <div class="time-bar-2">
+                                <div class="progress-2"></div>
+                            </div>
+                            <div class="time time-lm">4.35</div>
+                        </div>
+                     </div>
+                    <!-- Fine seconda sezione -->
+                </div>
+                <div class="width-30pc height-footer flex-grow-1 flex justify-end">
+                    <!-- Terza sezione -->
+                    <div class="third-section width-100pc">
+                        <div class="icons align-center flex flex-row no-wrap height-footer justify-end">
+                            <div>
+                                <i class="fa-solid fa-list-ul color-white opacity-60 icon"></i>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-desktop color-white opacity-60 icon"></i>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-volume-high color-white opacity-60 icon"></i>
+                            </div>
+                            <div class="time-bar-3">
+                                <div class="progress-3"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fine terza sezione -->
+                </div>
+            </div>
         </footer>
         <!-- Fine footer -->
     </div>
