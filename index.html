@@ -1,12 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsive.css">
     <title>Spotify</title>
 </head>
+
 <body>
+    <div class="wrapper">
+        <!-- Upper part -->
+        <div class="upper-part">
+            <!-- Sidebar -->
+            <div class="sidebar flex flex-column flex-between">
+                <div class="flex flex-column">
+                    <!-- Logo -->
+                    <img class="big-logo big" src="./img/logo.svg" alt="" />
+                    <img class="small-logo small" src="./img/logo-small.svg" alt="" />
+
+                    <!-- Options -->
+                    <!-- Home -->
+                    <div class="flex align-center">
+                        <img class="standard-size small-logo" src="./img/home.svg" alt="">
+                        <p class="big">Home</p>
+                    </div>
+                    <!-- Cerca -->
+                    <div class="flex align-center">
+                        <img class="standard-size small-logo" src="./img/search.svg" alt="">
+                        <p class="big">Cerca</p>
+                    </div>
+                    <!-- La tua libreria -->
+                    <div class="flex align-center">
+                        <img class="standard-size small-logo" src="./img/libreria.svg" alt="">
+                        <p class="big">La tua libreria</p>
+                    </div>
+
+                    <!-- Playlist -->
+                    <div class="big margin-top padding-left playlist">
+                        <strong class="color-white">PLAYLIST</strong>
+                        <div class="flex align-center">
+                            <img class="standard-size small-logo" src="" alt="">
+                            <p class="big">Crea playlist</p>
+                        </div>
+                        <ul>
+                            <li>
+                                <p>Nome Playlist</p>
+                            </li>
+                            <li>
+                                <p>Nome Playlist</p>
+                            </li>
+                            <li>
+                                <p>Nome Playlist</p>
+                            </li>
+                            <li>
+                                <p>Nome Playlist</p>
+                            </li>
+                            <li>
+                                <p>Nome Playlist</p>
+                            </li>
+                            <li>
+                                <p>Nome Playlist</p>
+                            </li>
+                            <li>
+                                <p>Nome Playlist</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex">
+                        <img class="small-download" src="./img/download.svg" alt="">
+                        <p>Installa app</p>
+                    </div>
+                    <hr class="margin-y">
+                    <div class="flex">
+                        <img class="small-download" src="./img/profile.svg" alt="">
+                        <p>John Doe</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Fine sidebar -->
+
+            <!-- Sezione centrale -->
+            <div class="center">
+                <!-- Header -->
+                <header class="flex flex-end align-center">
+                    <div class="fake-button">
+                        EFFETTUA L'UPGRADE
+                    </div>
+                </header>
+                <!-- Fine header -->
+
+                <!-- Main -->
+                <main>
+                    <!-- Main nav -->
+                    <nav class="main-nav">
+                        <ul>
+                            <li><a href="">IN EVIDENZA</a></li>
+                            <li><a href="">PODCAST</a></li>
+                            <li><a href="">CLASSIFICHE</a></li>
+                            <li><a href="">GENERI E MOOD</a></li>
+                            <li><a href="">NUOVE USCITE</a></li>
+                            <li><a href="">SCOPRI</a></li>
+                        </ul>
+                    </nav>
+                    <!-- Fine main nav -->
+
+                    <!-- Recently played -->
+                    <section>
+                        <h2>Recently played</h2>
+                        <div class="flex bottom-space">
+                            <div class="col flex flex-column align-center">
+                                <img src="./img/metal_lifting.jpg" alt="Metal music" />
+                                <h3>Heavy Metal</h3>
+                                <p>Subtitle</p>
+                            </div>
+                            <div class="col">
+                                <img src="./img/stranger.jpeg" alt="Stranger Things" />
+                                <h3>Stranger Things, Vol. 1 (a Nexflix Original Series Soundtrack)</h3>
+                                <p>Kyle Dixon & Michael Stein</p>
+                            </div>
+                            <div class="col">
+                                <img src="./img/aquietplace.jpeg" alt="A Quiet Place" />
+                                <h3>A quiet place</h3>
+                                <p>Subtitle</p>
+                            </div>
+                            <div class="col">
+                                <img src="./img/split.jpeg" alt="Split" />
+                                <h3>Split</h3>
+                                <p>Subtitle</p>
+                            </div>
+                            <div class="col">
+                                <img src="./img/cure.jpeg" alt="A Cure for Wellness" />
+                                <h3>A cure for wellness</h3>
+                                <p>Subtitle</p>
+                            </div>
+                            <div class="col">
+                                <img src="./img/sinister.jpeg" alt="Sinister" />
+                                <h3>Sinister</h3>
+                                <p>Subtitle</p>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Fine recently played -->
+
+                    <!-- Creato per te -->
+                    <section>
+                        <h2>Creato per John Doe</h2>
+                        <p>Pi&ugrave; ascolti, pi&ugrave; accurati saranno i suggerimenti.</p>
+                        <div class="flex bottom-space">
+                            <div class="col">
+                                <img src="./img/radar.jpeg" alt="Radar" />
+                                <h3>Release Radar</h3>
+                            </div>
+                            <div class="col">
+                                <img src="./img/mixdaily.jpeg" alt="Daily Mix" />
+                                <h3>Daily Mix 1</h3>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Fine creato per te -->
+
+                    <!-- Artisti più popolari -->
+                    <section>
+                        <h2>Artisti pi&ugrave; popolari</h2>
+                        <p>Pi&ugrave; ascolti, pi&ugrave; accurati saranno i suggerimenti.</p>
+                        <div class="flex img-round">
+                            <div class="col">
+                                <img src="./img/youg.jpeg" alt="" />
+                                <h3>Lana del Rey</h3>
+                            </div>
+                            <div class="col">
+                                <img src="./img/einaudi.jpeg" alt="Einaudi" />
+                                <h3>Ludovico Einaudi</h3>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Fine artisti più popolari -->
+                </main>
+                <!-- Fine main -->
+            </div>
+            <!-- Fine sezione centrale -->
+        </div>
+        <!-- Fine upper part -->
+
+        <!-- Footer -->
+        <footer>
+        </footer>
+        <!-- Fine footer -->
+    </div>
 </body>
+
 </html>
