@@ -15,6 +15,11 @@
         padding-right: 20px;
     }
 
+    .download {
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+
     .small {
         display: none;
     }
@@ -36,21 +41,9 @@
         width: calc(100% / 4 - 30px / 4);
     }
 
-    .first-section .icons {
+    .footer-1 .icons {
         display: flex;
         flex-direction: row;
-    }
-
-    .first-section {
-        width: 180px;
-    }
-
-    .second-section {
-        width: 350px;
-    }
-
-    .third-section {
-        width: 170px;
     }
 }
 
@@ -60,7 +53,7 @@
         width: calc(100% / 6 - 50px / 6);
     }
 
-    .first-section {
+    /* .first-section {
         width: 220px;
     }
 
@@ -70,5 +63,13 @@
 
     .third-section {
         width: 220px;
+    } */
+
+    .footer-2 {
+        max-width: 700px;
+    }
+
+    .footer-3 {
+        max-width: 300px;
     }
 }

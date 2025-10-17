@@ -473,7 +473,6 @@ footer {
     justify-content: center;
     align-content: center;
     width: calc(100% / 10 * 4);
-    max-width: 700px;
     flex-grow: 1;
 
     height: var(--footer-height);
@@ -520,4 +519,8 @@ footer {
 
 .images:hover .play {
     opacity: 1;
+}
+
+.download {
+    margin-left: 10px;
 }
